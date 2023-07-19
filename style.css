@@ -1,0 +1,409 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+
+
+    
+}
+.banner{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.banner img{
+    width: 10%;
+    height: 40%;
+    margin-top: 20px;
+
+}
+.about-contaner > ul{
+
+    display: flex;
+}
+.about-contaner{
+    margin: auto;
+}
+.text-color{
+    color:#FF42A5 ;
+    font-size: 45px;
+    font-weight: 700;
+}
+.about-contaner li{
+    list-style: none;
+    /* justify-content: space-evenly; */
+    
+
+}
+
+.about-contaner li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.btn{
+width: 262px;
+height: 56px;
+/* padding: 20px; */
+font-size: 20px;
+font-weight: 700;
+background-color: #b3b1b6 ;
+border: none;
+border-radius: 7px;
+
+}
+.about-contaner{
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands{
+    color: brown;
+    width: 50px;
+}
+.trxt{
+    color: rgb(6, 5, 5);
+    width: 50px;
+    
+}
+
+
+/* banner style  */
+#background-img{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+/* .Play-Like-The{
+    width: 1900px;
+} */
+
+
+.nanner-ing{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+    
+    justify-content: space-between;
+}
+
+.banner-contaner{
+
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 4%;
+
+}
+
+.banner-contaner h3{
+    font-size: 33px;
+    font-weight: 700;
+
+}
+.banner-contaner h1{
+    font-size: 54px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0px;
+    margin-top: 0px;
+    }
+
+.text-title{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-button{
+    margin: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #F948B2;
+    border: none;
+    border-radius: 48px;
+    color: aliceblue;
+    
+}
+
+.btn-Rogue{
+    margin: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-content img{
+    margin-right:100px;
+    width: 60%;
+}
+
+.pngwing{
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.main{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.gamer-content{
+    justify-items:center;
+    align-items: center;
+}
+
+.gamer-content h1{
+    font-size: 54px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.gamer{
+    width: 50%;
+}
+
+
+
+/* card style  */
+.row{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 100px;
+    padding: 0px;
+
+}
+.card{
+    grid-template-columns: 4;
+    width:100%;
+    margin: 25px;
+    padding: 0px;
+    border: 0px solid rgb(240, 238, 232);
+    border-radius: 34px;
+
+}
+.card img{
+    width: 100%;
+}
+    
+.online-games{
+    text-align: center;
+    justify-content: center;
+}
+.Collection{
+    font-size: 43px;
+}
+
+.Funny{
+    font-size: 54px;
+    color: #F948B2;
+}
+
+
+
+.instantiy{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.text-contaner{
+    width: 40%;
+
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+   
+}
+.text-contaner h2{
+    font-size: 45px;
+
+}
+.play{
+    color:  #F948B2;
+    
+}
+.installs{
+    width: 40%;
+    margin-right: 100px;
+    position: relative;
+
+
+}
+.installs img{
+    width: 100%;
+}
+.installs-img img{
+    width: 80%;
+}
+.installs-img{
+    position: absolute;
+    bottom:-7%;
+    left: -15%;
+
+
+}
+
+
+/* profail stayle  */
+.Games-title{
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    margin-top: 70px;
+   /* width: 100%;  */
+}
+
+.profail{
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    align-items: center;
+
+
+}
+
+.profail:hover{
+    background-color: aliceblue;
+    border: 1px solid rgb(251, 250, 250);
+    border-radius: 45px;
+}
+.Frame-group{
+    background-color: #0b021e;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.Frame{
+    display: flex;
+    justify-content: center;
+
+}
+.Frame h1{
+    font-size: 43px;
+    color: #e8e5f0;
+}
+
+.Frame img{
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+}
+.Story{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.Story p{
+    padding-left: 35px;
+    color: #e8e5f0;
+
+}
+
+.brands1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    margin-left: 0%;
+    
+
+}
+
+.Terms{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Bangladesh{
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    margin-left: 35%;
+
+}
+
+
+
+
+
+/* mobile style  */
+@media screen and (max-width: 425px) {
+
+.about{
+
+    flex-direction: column;
+width: 100%;
+}
+.about ul{
+
+    flex-direction: column;
+width: 100%;
+margin-top: 30px;
+}
+.banner-images, .text-color{
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.banner{
+    flex-direction: column;
+}
+
+.nanner-ing{
+    flex-direction: column;
+}
+.main, .gamer{
+    flex-direction: column;
+    width: 100%;
+}
+.gamer{
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.row{
+    flex-direction: column;
+    width: 100%;
+}
+.instantiy{
+    flex-direction: column;
+    width: 100%;
+}
+.installs{
+    width: 100%;
+}
+.Games-title{
+    flex-direction: column;
+    width: 100%;
+}
+
+}
