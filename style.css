@@ -363,6 +363,7 @@ border-radius: 7px;
 .about{
 
     flex-direction: column;
+
 width: 100%;
 }
 .about ul{
@@ -397,6 +398,11 @@ margin-top: 30px;
 .row{
     flex-direction: column;
     width: 100%;
+    /* margin-right: 100px; */
+}
+.card{
+    margin-right: 150px;
+    margin-left: 0px;
 }
 .instantiy{
     flex-direction: column;
@@ -406,14 +412,33 @@ margin-top: 30px;
     width: 100%;
 }
 .Games-title{
-    flex-direction: column;
-    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin-right: 130px;
+    margin-left: 0px;
 }
 .Frame{
-    flex-direction: ;
+    flex-direction: column;
     margin-left:130px ;
 }
 .Story{
     grid-template-columns: 3fr;
 }
+.banner{
+    margin-left: 130px;
+}
+.Story{
+    width: 50%;
+    flex-direction: column;
+    margin-left: 140px;
+
+}
+.profail img{
+    width: 20%;
+}
+.profail{
+    font-size: 10px;
+    margin-right: 0px;
+}
+
 }
