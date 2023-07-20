@@ -270,15 +270,19 @@ border-radius: 7px;
     grid-template-columns: repeat( 5, 1fr);
     margin-top: 70px;
    /* width: 100%;  */
+   margin-left: 100px;
+   margin-right: 100px;
+   align-items: center;
+   justify-content: center;
 }
 
 .profail{
     align-content: center;
     justify-content: center;
     width: 100%;
-    margin-left:150px;
-    margin-right: 150px;
-    margin-top: 100px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 20px;
     align-items: center;
 
 
@@ -354,7 +358,7 @@ border-radius: 7px;
 
 
 /* mobile style  */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
 
 .about{
 
@@ -405,5 +409,11 @@ margin-top: 30px;
     flex-direction: column;
     width: 100%;
 }
-
+.Frame{
+    flex-direction: ;
+    margin-left:130px ;
+}
+.Story{
+    grid-template-columns: 3fr;
+}
 }
